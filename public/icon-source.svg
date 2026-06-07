@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6b6b"/>
+      <stop offset="1" stop-color="#c9379d"/>
+    </linearGradient>
+    <radialGradient id="tomato" cx="0.38" cy="0.34" r="0.75">
+      <stop offset="0" stop-color="#ff8a5b"/>
+      <stop offset="0.55" stop-color="#f0392b"/>
+      <stop offset="1" stop-color="#c41f17"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <g transform="translate(256 268)">
+    <ellipse cx="0" cy="0" rx="150" ry="138" fill="url(#tomato)"/>
+    <ellipse cx="-48" cy="-44" rx="40" ry="26" fill="#ffffff" opacity="0.28"/>
+    <g fill="#2faa4f" transform="translate(0 -132)">
+      <path d="M0 18 C-14 -14 -44 -30 -70 -24 C-50 -6 -36 8 -10 14 Z"/>
+      <path d="M0 18 C14 -14 44 -30 70 -24 C50 -6 36 8 10 14 Z"/>
+      <path d="M0 22 C-8 -16 -8 -40 0 -52 C8 -40 8 -16 0 22 Z"/>
+      <rect x="-7" y="-2" width="14" height="26" rx="6"/>
+    </g>
+  </g>
+</svg>
